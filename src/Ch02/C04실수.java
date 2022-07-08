@@ -19,6 +19,7 @@ public class C04실수 {
 		//키워드 : 단정밀도, 배정밀도
 		//리터럴 접미사 X 실수 기본자료형 double(8byte)
 		//리터럴 접미사 f : float형(4byte)
+		
 		System.out.println(123.12345678987654321F);
 		
 	}

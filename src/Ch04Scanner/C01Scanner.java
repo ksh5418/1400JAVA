@@ -7,10 +7,22 @@ public class C01Scanner {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//System.out : APP -> 표준출력장치 방향으로 스트림 형성
+		//System.in : 표준입력장치 -> APP 방향으로 스티림 형성
+		
+		//new Scanner(System.int)
+		//-> 표준입력스티림을 Scanner객체에 연결
+		//-> Scanner객체는 다양한 형태의 값을 스트림으로부터 받아올 수 있는
+		//-> 기능을 가지는 단위
+		
+		//Scanner sc = new Scanner(System.in);
+		//-> 생성된 Scanner객체의 위치값을 sc참조변수에 담아
+		//-> 제어함
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("첫번째 : ");
 		int num1 = sc.nextInt();
+		//sc스테너객체의 기능을 통해 정수값하나를 받아 num1공간에 초기화
 		System.out.print("두번째 : ");
 		int num2 = sc.nextInt();
 		System.out.print("세번째 : ");

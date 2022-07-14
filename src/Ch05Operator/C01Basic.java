@@ -90,7 +90,7 @@ public class C01Basic {
 		
 		
 		//삼항연산자
-		Scanner sc = new Scanner(System.in);
+//		Scanner sc = new Scanner(System.in);
 //		System.out.println("점수 입력 : ");
 //		int score = sc.nextInt();
 //		char grade = (score>90) ? 'A' : 'B';
@@ -99,6 +99,7 @@ public class C01Basic {
 		
 		//문제
 		//두 수를 입력받아 큰수를 출력하세요
+		Scanner sc = new Scanner(System.in);
 		System.out.println("두 수 입력");
 		int a = sc.nextInt();
 		int b = sc.nextInt();
